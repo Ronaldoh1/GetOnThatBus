@@ -18,6 +18,7 @@
 
     self.routes = [dictionary objectForKey:@"routes"];
     self.stopName = [dictionary objectForKey:@"cta_stop_name"];
+    self.transfer = [dictionary objectForKey:@"inter_modal"];
 
 
     return self;

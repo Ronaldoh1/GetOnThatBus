@@ -17,6 +17,7 @@
 @property double longitude;
 @property NSString *routes;
 @property NSString *stopName;
+@property NSString *transfer;
 
 
 -(instancetype)initWithDictionary:(NSDictionary *)dictionary;

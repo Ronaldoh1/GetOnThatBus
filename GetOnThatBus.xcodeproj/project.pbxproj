@@ -17,6 +17,7 @@
 		F2BF32661AC214EB00616B10 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2BF32651AC214EB00616B10 /* MapKit.framework */; };
 		F2BF32691AC217A600616B10 /* BusStop.m in Sources */ = {isa = PBXBuildFile; fileRef = F2BF32681AC217A600616B10 /* BusStop.m */; };
 		F2BF326C1AC2291E00616B10 /* BusStopDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = F2BF326B1AC2291E00616B10 /* BusStopDownloader.m */; };
+		F2BF326F1AC2A52400616B10 /* BusStopDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2BF326E1AC2A52400616B10 /* BusStopDetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,8 @@
 		F2BF32681AC217A600616B10 /* BusStop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BusStop.m; sourceTree = "<group>"; };
 		F2BF326A1AC2291E00616B10 /* BusStopDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusStopDownloader.h; sourceTree = "<group>"; };
 		F2BF326B1AC2291E00616B10 /* BusStopDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BusStopDownloader.m; sourceTree = "<group>"; };
+		F2BF326D1AC2A52400616B10 /* BusStopDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusStopDetailViewController.h; sourceTree = "<group>"; };
+		F2BF326E1AC2A52400616B10 /* BusStopDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BusStopDetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +98,8 @@
 				F2BF32441AC2141700616B10 /* AppDelegate.m */,
 				F2BF32461AC2141700616B10 /* MapViewController.h */,
 				F2BF32471AC2141700616B10 /* MapViewController.m */,
+				F2BF326D1AC2A52400616B10 /* BusStopDetailViewController.h */,
+				F2BF326E1AC2A52400616B10 /* BusStopDetailViewController.m */,
 				F2BF32671AC217A600616B10 /* BusStop.h */,
 				F2BF32681AC217A600616B10 /* BusStop.m */,
 				F2BF326A1AC2291E00616B10 /* BusStopDownloader.h */,
@@ -235,6 +240,7 @@
 			files = (
 				F2BF32691AC217A600616B10 /* BusStop.m in Sources */,
 				F2BF326C1AC2291E00616B10 /* BusStopDownloader.m in Sources */,
+				F2BF326F1AC2A52400616B10 /* BusStopDetailViewController.m in Sources */,
 				F2BF32481AC2141700616B10 /* MapViewController.m in Sources */,
 				F2BF32451AC2141700616B10 /* AppDelegate.m in Sources */,
 				F2BF32421AC2141700616B10 /* main.m in Sources */,
