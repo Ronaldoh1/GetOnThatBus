@@ -9,11 +9,14 @@
 /* Begin PBXBuildFile section */
 		F2BF32421AC2141700616B10 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F2BF32411AC2141700616B10 /* main.m */; };
 		F2BF32451AC2141700616B10 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F2BF32441AC2141700616B10 /* AppDelegate.m */; };
-		F2BF32481AC2141700616B10 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2BF32471AC2141700616B10 /* ViewController.m */; };
+		F2BF32481AC2141700616B10 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2BF32471AC2141700616B10 /* MapViewController.m */; };
 		F2BF324B1AC2141700616B10 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2BF32491AC2141700616B10 /* Main.storyboard */; };
 		F2BF324D1AC2141700616B10 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2BF324C1AC2141700616B10 /* Images.xcassets */; };
 		F2BF32501AC2141700616B10 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2BF324E1AC2141700616B10 /* LaunchScreen.xib */; };
 		F2BF325C1AC2141700616B10 /* GetOnThatBusTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F2BF325B1AC2141700616B10 /* GetOnThatBusTests.m */; };
+		F2BF32661AC214EB00616B10 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2BF32651AC214EB00616B10 /* MapKit.framework */; };
+		F2BF32691AC217A600616B10 /* BusStop.m in Sources */ = {isa = PBXBuildFile; fileRef = F2BF32681AC217A600616B10 /* BusStop.m */; };
+		F2BF326C1AC2291E00616B10 /* BusStopDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = F2BF326B1AC2291E00616B10 /* BusStopDownloader.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +35,19 @@
 		F2BF32411AC2141700616B10 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F2BF32431AC2141700616B10 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F2BF32441AC2141700616B10 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F2BF32461AC2141700616B10 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F2BF32471AC2141700616B10 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F2BF32461AC2141700616B10 /* MapViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		F2BF32471AC2141700616B10 /* MapViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
 		F2BF324A1AC2141700616B10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F2BF324C1AC2141700616B10 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F2BF324F1AC2141700616B10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		F2BF32551AC2141700616B10 /* GetOnThatBusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GetOnThatBusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2BF325A1AC2141700616B10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F2BF325B1AC2141700616B10 /* GetOnThatBusTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GetOnThatBusTests.m; sourceTree = "<group>"; };
+		F2BF32651AC214EB00616B10 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		F2BF32671AC217A600616B10 /* BusStop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusStop.h; sourceTree = "<group>"; };
+		F2BF32681AC217A600616B10 /* BusStop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BusStop.m; sourceTree = "<group>"; };
+		F2BF326A1AC2291E00616B10 /* BusStopDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusStopDownloader.h; sourceTree = "<group>"; };
+		F2BF326B1AC2291E00616B10 /* BusStopDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BusStopDownloader.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2BF32661AC214EB00616B10 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +72,7 @@
 		F2BF32331AC2141700616B10 = {
 			isa = PBXGroup;
 			children = (
+				F2BF32651AC214EB00616B10 /* MapKit.framework */,
 				F2BF323E1AC2141700616B10 /* GetOnThatBus */,
 				F2BF32581AC2141700616B10 /* GetOnThatBusTests */,
 				F2BF323D1AC2141700616B10 /* Products */,
@@ -83,8 +93,12 @@
 			children = (
 				F2BF32431AC2141700616B10 /* AppDelegate.h */,
 				F2BF32441AC2141700616B10 /* AppDelegate.m */,
-				F2BF32461AC2141700616B10 /* ViewController.h */,
-				F2BF32471AC2141700616B10 /* ViewController.m */,
+				F2BF32461AC2141700616B10 /* MapViewController.h */,
+				F2BF32471AC2141700616B10 /* MapViewController.m */,
+				F2BF32671AC217A600616B10 /* BusStop.h */,
+				F2BF32681AC217A600616B10 /* BusStop.m */,
+				F2BF326A1AC2291E00616B10 /* BusStopDownloader.h */,
+				F2BF326B1AC2291E00616B10 /* BusStopDownloader.m */,
 				F2BF32491AC2141700616B10 /* Main.storyboard */,
 				F2BF324C1AC2141700616B10 /* Images.xcassets */,
 				F2BF324E1AC2141700616B10 /* LaunchScreen.xib */,
@@ -219,7 +233,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2BF32481AC2141700616B10 /* ViewController.m in Sources */,
+				F2BF32691AC217A600616B10 /* BusStop.m in Sources */,
+				F2BF326C1AC2291E00616B10 /* BusStopDownloader.m in Sources */,
+				F2BF32481AC2141700616B10 /* MapViewController.m in Sources */,
 				F2BF32451AC2141700616B10 /* AppDelegate.m in Sources */,
 				F2BF32421AC2141700616B10 /* main.m in Sources */,
 			);
