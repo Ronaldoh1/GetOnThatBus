@@ -18,6 +18,10 @@
 		F2BF32691AC217A600616B10 /* BusStop.m in Sources */ = {isa = PBXBuildFile; fileRef = F2BF32681AC217A600616B10 /* BusStop.m */; };
 		F2BF326C1AC2291E00616B10 /* BusStopDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = F2BF326B1AC2291E00616B10 /* BusStopDownloader.m */; };
 		F2BF326F1AC2A52400616B10 /* BusStopDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2BF326E1AC2A52400616B10 /* BusStopDetailViewController.m */; };
+		F2BF32721AC3133200616B10 /* CustomMKPointAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = F2BF32711AC3133200616B10 /* CustomMKPointAnnotation.m */; };
+		F2BF32A81AC38FEC00616B10 /* CTA-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = F2BF32A71AC38FEC00616B10 /* CTA-logo.png */; };
+		F2BF32AA1AC39EA800616B10 /* ctaicon.png in Resources */ = {isa = PBXBuildFile; fileRef = F2BF32A91AC39EA800616B10 /* ctaicon.png */; };
+		F2BF32AC1AC39FD200616B10 /* ctaiconx58.png in Resources */ = {isa = PBXBuildFile; fileRef = F2BF32AB1AC39FD200616B10 /* ctaiconx58.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,11 @@
 		F2BF326B1AC2291E00616B10 /* BusStopDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BusStopDownloader.m; sourceTree = "<group>"; };
 		F2BF326D1AC2A52400616B10 /* BusStopDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusStopDetailViewController.h; sourceTree = "<group>"; };
 		F2BF326E1AC2A52400616B10 /* BusStopDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BusStopDetailViewController.m; sourceTree = "<group>"; };
+		F2BF32701AC3133200616B10 /* CustomMKPointAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomMKPointAnnotation.h; sourceTree = "<group>"; };
+		F2BF32711AC3133200616B10 /* CustomMKPointAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomMKPointAnnotation.m; sourceTree = "<group>"; };
+		F2BF32A71AC38FEC00616B10 /* CTA-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "CTA-logo.png"; path = "../../../CTA-logo.png"; sourceTree = "<group>"; };
+		F2BF32A91AC39EA800616B10 /* ctaicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ctaicon.png; path = ../../../../Downloads/ctaicon.png; sourceTree = "<group>"; };
+		F2BF32AB1AC39FD200616B10 /* ctaiconx58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ctaiconx58.png; path = ../../../ctaiconx58.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +107,8 @@
 				F2BF32441AC2141700616B10 /* AppDelegate.m */,
 				F2BF32461AC2141700616B10 /* MapViewController.h */,
 				F2BF32471AC2141700616B10 /* MapViewController.m */,
+				F2BF32701AC3133200616B10 /* CustomMKPointAnnotation.h */,
+				F2BF32711AC3133200616B10 /* CustomMKPointAnnotation.m */,
 				F2BF326D1AC2A52400616B10 /* BusStopDetailViewController.h */,
 				F2BF326E1AC2A52400616B10 /* BusStopDetailViewController.m */,
 				F2BF32671AC217A600616B10 /* BusStop.h */,
@@ -105,7 +116,10 @@
 				F2BF326A1AC2291E00616B10 /* BusStopDownloader.h */,
 				F2BF326B1AC2291E00616B10 /* BusStopDownloader.m */,
 				F2BF32491AC2141700616B10 /* Main.storyboard */,
+				F2BF32A71AC38FEC00616B10 /* CTA-logo.png */,
+				F2BF32AB1AC39FD200616B10 /* ctaiconx58.png */,
 				F2BF324C1AC2141700616B10 /* Images.xcassets */,
+				F2BF32A91AC39EA800616B10 /* ctaicon.png */,
 				F2BF324E1AC2141700616B10 /* LaunchScreen.xib */,
 				F2BF323F1AC2141700616B10 /* Supporting Files */,
 			);
@@ -218,9 +232,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2BF32AA1AC39EA800616B10 /* ctaicon.png in Resources */,
 				F2BF324B1AC2141700616B10 /* Main.storyboard in Resources */,
+				F2BF32A81AC38FEC00616B10 /* CTA-logo.png in Resources */,
 				F2BF32501AC2141700616B10 /* LaunchScreen.xib in Resources */,
 				F2BF324D1AC2141700616B10 /* Images.xcassets in Resources */,
+				F2BF32AC1AC39FD200616B10 /* ctaiconx58.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,6 +261,7 @@
 				F2BF32481AC2141700616B10 /* MapViewController.m in Sources */,
 				F2BF32451AC2141700616B10 /* AppDelegate.m in Sources */,
 				F2BF32421AC2141700616B10 /* main.m in Sources */,
+				F2BF32721AC3133200616B10 /* CustomMKPointAnnotation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
