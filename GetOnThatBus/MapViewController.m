@@ -22,7 +22,7 @@
 @property NSArray *busStopsArray;
 @property NSMutableArray *arrayOfBusStopObjects;
 
-@property (weak, nonatomic) IBOutlet UISegmentedControl *SegmentedController;
+
 
 
 @end
@@ -75,6 +75,7 @@
         annotation.accessibilityLabel = busStop.transfer;
         annotation.busStop = busStop;
 
+
         [self.mapView addAnnotation:annotation];
 
         //latitdude and longitude for Chicago --Zoom to region
@@ -105,8 +106,13 @@
         CustomMKPointAnnotation *pointAnnotation = sender;
         BusStopDetailViewController *DestinationVC = segue.destinationViewController;
         DestinationVC.busStop = pointAnnotation.busStop;
-
     }
+
+///need to go to the next view controller from table view.
+        BusStopDetailViewController *DestinationVC = segue.destinationViewController;
+        NSIndexPath *selectedIndexPath = [self.tableView indexPathForSelectedRow];
+        DestinationVC.busStop = self.arrayOfBusStopObjects[selectedIndexPath.row];
+
 
 }
 
@@ -123,6 +129,7 @@
     CustomMKPointAnnotation *custAn = (CustomMKPointAnnotation *)annotation;
 
     MKPinAnnotationView *pinAnnotation = [[MKPinAnnotationView alloc]initWithAnnotation:annotation reuseIdentifier:nil];
+    pinAnnotation.animatesDrop = true;
 
     if ([custAn.accessibilityLabel isEqual:@"Metra"]) {
         pinAnnotation.pinColor = MKPinAnnotationColorGreen;
@@ -168,7 +175,7 @@
         self.mapView.hidden = true;
         self.tableView.hidden = false;
          NSLog(@"Table");
-        [self.tableView reloadData];
+
 
     }
 }
